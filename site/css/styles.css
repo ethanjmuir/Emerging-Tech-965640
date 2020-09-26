@@ -1,5 +1,37 @@
-h1 {
+body {
+    background-color: #000;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1.main-title {
     text-align: center;
-    color: black;
-    font-weight: bold;
+    margin-top: 350px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+h1.sub-title {
+    position: relative;
+    text-align: center;
+    margin-top: 350px;
+    margin-bottom: 50px;
+    color: #fcba05;
+    font-weight: 300; 
+    float: right;
+}
+
+div.box {
+    background-color: #fcba05;
+    height: 500px;
+    width: 500px;
+    margin: 25px;
+    padding: 25px;
+}
+
+h3.box {
+    color: #FFF;
+}
+
+li {
+    margin: 35px;
 }
