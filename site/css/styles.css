@@ -1,5 +1,28 @@
-h1 {
-    text-align: center;
+body {
+    background-color: #000;
+    margin: 25px;
+    font-family: 'Roboto Mono', monospace;
     color: black;
-    font-weight: bold;
+}
+
+h1 {
+    color: #ffcb2e;
+    font-weight: 700;
+    text-align: center;
+}
+
+div.box {
+    background-color: #ffcb2e;
+    height: 500px;
+    width: 500px;
+    float: left;
+    margin: 25px;
+    padding: 25px;
+
+}
+
+div h2 {
+    color: white;
+    text-align: center;
+
 }
